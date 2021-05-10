@@ -66,9 +66,9 @@ openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comm
     ├── build-bbb
     ├── build-qemu
     ├── build-rpi
-    ├── DIRECTORIES.md
     ├── Documentation
     ├── downloads
+    ├── INFO.md
     ├── meta-openembedded
     ├── meta-python2
     ├── meta-raspberrypi
