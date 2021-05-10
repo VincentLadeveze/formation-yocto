@@ -7,7 +7,7 @@ TAG:            yocto-3.2.2 (Poky)
 
 # Liste des répertoires:
 le 10/05/21
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
         NAME            |                       DESCRIPTION REPERTOIRES                                 |                   DEPOT
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -37,6 +37,7 @@ meta-tutorial-layer/    | Layer créé pour ce tutoriel de Christophe Blaess.  
 openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comme base.                  |   git://git.openembedded.org/openembedded-core/
                         |                                                                               |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+```
 
 => Le stockage des répertoires de `build` est le suivant:
         - soit dans `~/` pour bosser sur `yocto`
@@ -45,7 +46,7 @@ Selon leur utilisation, le SSD de stockage de ces répertoires peut évoluer.
 
 
 # tree
-'''
+```
    {*-*} $ cd $YOCTO/..
    {*-*} $ tree -L 2
 .
@@ -75,4 +76,4 @@ Selon leur utilisation, le SSD de stockage de ces répertoires peut évoluer.
     ├── openembedded-core
     ├── poky
     └── sstate-cache
-'''
+```
