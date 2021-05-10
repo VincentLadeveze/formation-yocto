@@ -20,7 +20,7 @@ build-qemu-all@         | Build QEMU (lien symbolique vers disque Storage).     
                         |                                                                               |
 build-qemu/             | Build QEMU (sauvegarde pour GitHub).                                          |
                         |                                                                               |
-build-rpi/              | Build Raspberry PI 4 (lien symbolique vers disque Storage).                   |
+build-rpi/              | Build Raspberry PI 4 complet.                                                 |
                         |                                                                               |
 downloads/              | Build configuration direcories:   - téléchargement de paquets.                |
 sstate-cache/           |                                   - stockage temporaire au build.             |
@@ -33,7 +33,7 @@ meta-python2/           | Layer de Python2 sortis de 'meta-openembedded/' depuis
                         |                                                                               |
 meta-raspberrypi/       | Layer de Raspberry PI, contient le BSP des principales versions de carte.     |   git://git.yoctoproject.org/meta-raspberrypi
                         |                                                                               |
-meta-tutorial-layer/    | Layer créé pour ce tutoriel.                             |
+meta-tutorial-layer/    | Layer créé pour ce tutoriel.                                                  |
                         |                                                                               |
 openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comme base.                  |   git://git.openembedded.org/openembedded-core/
                         |                                                                               |
