@@ -5,7 +5,8 @@ BRANCHE:        gatesgarth
 TAG:            yocto-3.2.2 (Poky)
 
 
-# Liste des répertoires (le 10/05/21):
+# Liste des répertoires:
+le 10/05/21
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
         NAME            |                       DESCRIPTION REPERTOIRES                                 |                   DEPOT
@@ -44,6 +45,7 @@ Selon leur utilisation, le SSD de stockage de ces répertoires peut évoluer.
 
 
 # tree
+'''
    {*-*} $ cd $YOCTO/..
    {*-*} $ tree -L 2
 .
@@ -73,4 +75,4 @@ Selon leur utilisation, le SSD de stockage de ces répertoires peut évoluer.
     ├── openembedded-core
     ├── poky
     └── sstate-cache
-
+'''
