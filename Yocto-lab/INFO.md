@@ -42,8 +42,7 @@ openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comm
 
 => Le stockage des répertoires de `build` est le suivant:
 - soit dans `~/` pour bosser sur `yocto`
-- soit sur le SSD interne 'Storage' pour stockage. Dans ce cas, ces répertoires sont des liens symboliques dans `$YOCTO/`
-Selon leur utilisation, le SSD de stockage de ces répertoires peut évoluer.
+- soit sur le SSD interne `Storage` pour stockage. Dans ce cas, ces répertoires sont des liens symboliques dans `$YOCTO/`
 
 
 ## tree
