@@ -33,7 +33,7 @@ meta-python2/           | Layer de Python2 sortis de 'meta-openembedded/' depuis
                         |                                                                               |
 meta-raspberrypi/       | Layer de Raspberry PI, contient le BSP des principales versions de carte.     |   git://git.yoctoproject.org/meta-raspberrypi
                         |                                                                               |
-meta-tutorial-layer/    | Layer créé pour ce tutoriel de Christophe Blaess.                             |
+meta-tutorial-layer/    | Layer créé pour ce tutoriel.                             |
                         |                                                                               |
 openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comme base.                  |   git://git.openembedded.org/openembedded-core/
                         |                                                                               |
