@@ -25,7 +25,7 @@ build-rpi/              | Build Raspberry PI 4 (lien symbolique vers disque Stor
 downloads/              | Build configuration direcories:   - téléchargement de paquets.                |
 sstate-cache/           |                                   - stockage temporaire au build.             |
                         |                                                                               |
-poky/                   | Kernel + minimal BusyBox du projet Yocto.                                     |   git://git.yoctoproject.org/poky
+poky/                   | Kernel + BusyBox minimale du projet Yocto.                                    |   git://git.yoctoproject.org/poky
                         |                                                                               |
 meta-openembedded/      | Applications de Open Embedded particulièrement utiles.                        |   git://git.openembedded.org/meta-openembedded
                         |                                                                               |
