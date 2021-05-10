@@ -1,0 +1,7 @@
+# Ensure wlan0 is set to auto
+#
+
+do_install_append () {
+    cat  ${D}${sysconfdir}/network/interfaces
+    echo ' auto wlan0' >> ${D}${sysconfdir}/network/interfaces
+}

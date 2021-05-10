@@ -1,0 +1,17 @@
+*.swp
+*.md
+*.pdf
+cross-toolchain
+password-encryption
+Yocto-lab/build-rpi/bitbake-cookerdaemon.log
+Yocto-lab/build-rpi/cache/
+Yocto-lab/build-rpi/linux/
+Yocto-lab/build-rpi/tmp/
+Yocto-lab/downloads/
+Yocto-lab/meta-openembedded/
+Yocto-lab/meta-python2/
+Yocto-lab/meta-raspberrypi/
+Yocto-lab/openembedded-core/
+Yocto-lab/poky/
+Yocto-lab/sstate-cache/
+
