@@ -1,7 +1,7 @@
 
 ## GIT Yocto
 
-BRANCHE:        `gatesgarth`
+BRANCHE:        `gatesgarth`,
 TAG:            `yocto-3.2.2 (Poky)`
 
 
