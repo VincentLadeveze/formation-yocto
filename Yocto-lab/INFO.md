@@ -55,7 +55,6 @@ openembedded-core/      | Coeur de OE: non-utilisé ici car je 'build' poky comm
 │   ├── sdk
 │   ├── test-cc
 │   └── test-cross-cc
-├── NOTES.md
 ├── password-encryption
 │   ├── crypt
 │   ├── crypt.c
