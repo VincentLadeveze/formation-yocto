@@ -1,0 +1,12 @@
+diff -ruN nano-5.3-origin/src/nano.c nano-5.3-modified/src/nano.c
+--- nano-5.3-origin/src/nano.c	2020-10-07 10:51:32.000000000 +0200
++++ nano-5.3-modified/src/nano.c	2021-03-08 17:30:34.355416800 +0100
+@@ -2532,7 +2532,7 @@
+ #ifdef ENABLE_HELP
+ 	if (*openfile->filename == '\0' && openfile->totsize == 0 &&
+ 				openfile->next == openfile && !ISSET(NO_HELP))
+-		statusbar(_("Welcome to nano.  For basic help, type Ctrl+G."));
++		statusbar(_("Welcome to my patched version of nano, mon p'tit gar."));
+ #endif
+ 
+ 	we_are_running = TRUE;

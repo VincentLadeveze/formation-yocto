@@ -1,0 +1,19 @@
+diff --git a/arch/arm/boot/dts/bcm2711-rpi-4-b.dts b/arch/arm/boot/dts/bcm2711-rpi-4-b.dts
+index 21b20e334b1a..67697acfa4c5 100644
+--- a/arch/arm/boot/dts/bcm2711-rpi-4-b.dts
++++ b/arch/arm/boot/dts/bcm2711-rpi-4-b.dts
+@@ -442,6 +442,14 @@
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&i2c1_pins>;
+ 	clock-frequency = <100000>;
++
++    status = "okay";
++    temp@18 {
++            compatible = "jedec,jc-42.4-temp";
++            reg = <0x18>;
++            #address-cells = <0x1>;
++            #size-cells = <0x0>;
++    };
+ };
+ 
+ &i2s {
